@@ -1,0 +1,72 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:calculation_processor"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "ae2:memory_card",
+	  "chance": 90.0,
+	  "count": 1
+    },
+	{
+      "item": "ae2:calculation_processor",
+	  "chance": 10.0,
+	  "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:calculation_processor"
+        },
+        {
+          "item": "minecraft:iron_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:calculation_processor"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:calculation_processor"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:calculation_processor"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:calculation_processor"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:calculation_processor"
+        }
+      ]
+    }
+  ],
+	"transitionalItem": {
+		"item": "ae2:calculation_processor"
+	} 
+}

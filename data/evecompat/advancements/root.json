@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;0,0,0,0],Properties:{textures:[{Value:'ewogICJ0aW1lc3RhbXAiIDogMTcyNzEzNjM5NTg0OSwKICAicHJvZmlsZUlkIiA6ICI4MTBhOTBhMjdkZmQ0YzVmOGJmYTkyOTVkNDNlNmFlOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJZYW5nTGlvblNwaXJpdCIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lZjdmZjA3NGZkODAwZGUyOGQ4MzhjM2ViOTU0MDBlMjBjYzU1NWM2YjFiYThjNDU3MDllYWYyNDc4YWE5MDdmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0='}]}}}"
+		},
+		"title": "  Eve's  Compats  Collection  ",
+		"frame": "challenge",
+		"description": ["",{"text":"Enabled ","color":"green"},{"text":"packs from ", "color": "white"},{"text":"Eve's Compats\n\n"},{"text":"modrinth.com/user/EveSome4Me","color":"yellow"}],
+		"background": "minecraft:textures/block/nether_wart_block.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "ae2:controller"
+		},
+		"title": "AE2                  ",
+		"description": ["",{"text":"modrinth.com/project/ae2_create_evecompat","color":"yellow"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "evecompat:create",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

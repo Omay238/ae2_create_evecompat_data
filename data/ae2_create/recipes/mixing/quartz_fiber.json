@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "ae2:certus_quartz_dust"
+    },
+	{
+      "item": "ae2:certus_quartz_dust"
+    },
+	{
+      "item": "ae2:certus_quartz_dust"
+    },
+    {
+      "tag": "c:glass_blocks"
+    },
+    {
+      "tag": "c:glass_blocks"
+    },
+	{
+      "tag": "c:glass_blocks"
+    },
+	{
+      "tag": "c:glass_blocks"
+    },
+	{
+      "tag": "c:glass_blocks"
+    },
+	    {
+      "tag": "c:glass_blocks"
+    }
+  ],
+  "results": [
+    {
+      "count": 3,
+      "item": "ae2:quartz_fiber"
+    }
+  ]
+}
