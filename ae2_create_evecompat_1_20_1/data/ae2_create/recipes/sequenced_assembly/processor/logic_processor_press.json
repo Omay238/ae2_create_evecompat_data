@@ -1,0 +1,64 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:clay"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "ae2:logic_processor_press"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:clay"
+        },
+        {
+          "item": "minecraft:repeater"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:clay"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:clay"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:clay"
+        }
+      ]
+    },
+	{
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:clay"
+        },
+        {
+          "amount": 4050,
+          "fluid": "minecraft:lava",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:clay"
+        }
+      ]
+    }
+  ],
+	"transitionalItem": {
+		"item": "minecraft:clay"
+	} 
+}

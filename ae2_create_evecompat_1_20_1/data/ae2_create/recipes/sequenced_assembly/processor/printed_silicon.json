@@ -1,0 +1,46 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:silicon_press"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "ae2:printed_silicon"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:silicon_press"
+        },
+        {
+          "item": "ae2:silicon"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:silicon_press"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "ae2:silicon_press"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:silicon_press"
+        }
+      ]
+    }
+  ],
+	"transitionalItem": {
+		"item": "ae2:silicon_press"
+	} 
+}
