@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "apcrcompat",
+  "version": "${version}",
+  "name": "AE2+Create Compat",
+  "description": "Implements Create-style AE2 Recipes",
+  "authors": [
+    "github.com/dryas-octopetala"
+  ],
+  "contact": {
+    "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
+  },
+  "license": "MIT",
+  "icon": "assets/apcrcompat/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.c18h24o2.apcrcompat.AE2CreateCompat"
+    ]
+  },
+  "mixins": [
+    "apcrcompat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "create": "${create_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
