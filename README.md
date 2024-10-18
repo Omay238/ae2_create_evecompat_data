@@ -2,6 +2,8 @@ Source code for https://modrinth.com/project/ae2_create_evecompat
 
 Creator page https://modrinth.com/user/EveSome4Me
 
+This mod is an extension of the base create template https://github.com/Fabricators-of-Create/create-fabric-addon-template
+
 ## Added Recipes:
 
 ### Sequenced Assembly
