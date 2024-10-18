@@ -1,0 +1,94 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:chests"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "ae2:chest"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "tag": "c:chests"
+        },
+        {
+          "item": "ae2:annihilation_core"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:chest"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:chest"
+        },
+        {
+          "item": "ae2:formation_core"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:chest"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:chest"
+        },
+        {
+          "item": "ae2:memory_card"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:chest"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:chest"
+        },
+        {
+          "item": "ae2:fluix_crystal"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:chest"
+        }
+      ]
+    },
+	{
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:chest"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:chest"
+        }
+      ]
+    }
+  ],
+	"transitionalItem": {
+		"item": "minecraft:chest"
+	} 
+}

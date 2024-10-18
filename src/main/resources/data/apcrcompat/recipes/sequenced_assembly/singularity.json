@@ -1,0 +1,33 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:fluix_pearl"
+  },
+  "loops": 1000,
+  "results": [
+    {
+      "item": "ae2:singularity"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:fluix_pearl"
+        },
+        {
+          "item": "ae2:matter_ball"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:fluix_pearl"
+        }
+      ]
+    }
+  ],
+	"transitionalItem": {
+		"item": "apcrcompat:incomplete_singularity"
+	} 
+}

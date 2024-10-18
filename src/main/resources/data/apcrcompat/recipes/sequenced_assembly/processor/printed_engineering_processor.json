@@ -1,0 +1,46 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "apcrcompat:flimsy_engineering_press"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "ae2:printed_engineering_processor"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apcrcompat:flimsy_engineering_press"
+        },
+        {
+          "item": "minecraft:diamond"
+        }
+      ],
+      "results": [
+        {
+          "item": "apcrcompat:incomplete_printed_engineering_processor"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "apcrcompat:incomplete_printed_engineering_processor"
+        }
+      ],
+      "results": [
+        {
+          "item": "apcrcompat:incomplete_printed_engineering_processor"
+        }
+      ]
+    }
+  ],
+	"transitionalItem": {
+		"item": "apcrcompat:incomplete_printed_engineering_processor"
+	}
+}

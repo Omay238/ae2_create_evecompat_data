@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "apcrcompat:silicon_press_cast"
+    }
+  ],
+  "results": [
+    {
+      "item": "apcrcompat:flimsy_silicon_press"
+    },
+    {
+      "amount": 0,
+      "fluid": "apcrcompat:emptyfluid"
+    }
+  ]
+}

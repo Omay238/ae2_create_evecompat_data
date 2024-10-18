@@ -1,0 +1,81 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:printed_logic_processor"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "ae2:logic_processor"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:printed_logic_processor"
+        },
+        {
+          "item": "ae2:printed_silicon"
+        }
+      ],
+      "results": [
+        {
+          "item": "apcrcompat:incomplete_logic_processor"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apcrcompat:incomplete_logic_processor"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "apcrcompat:incomplete_logic_processor"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apcrcompat:incomplete_logic_processor"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "apcrcompat:incomplete_logic_processor"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apcrcompat:incomplete_logic_processor"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "apcrcompat:incomplete_logic_processor"
+        }
+      ]
+    }
+  ],
+	"transitionalItem": {
+		"item": "apcrcompat:incomplete_logic_processor"
+	} 
+}

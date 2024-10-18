@@ -1,0 +1,64 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "apcrcompat:casting_sand"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "apcrcompat:calculation_press_cast"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apcrcompat:casting_sand"
+        },
+        {
+          "item": "minecraft:comparator"
+        }
+      ],
+      "results": [
+        {
+          "item": "apcrcompat:incomplete_calculation_press_cast"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "apcrcompat:incomplete_calculation_press_cast"
+        }
+      ],
+      "results": [
+        {
+          "item": "apcrcompat:incomplete_calculation_press_cast"
+        }
+      ]
+    },
+	{
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "apcrcompat:incomplete_calculation_press_cast"
+        },
+        {
+          "amount": 4050,
+          "fluid": "minecraft:lava",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "apcrcompat:incomplete_calculation_press_cast"
+        }
+      ]
+    }
+  ],
+	"transitionalItem": {
+		"item": "apcrcompat:incomplete_calculation_press_cast"
+	}
+}

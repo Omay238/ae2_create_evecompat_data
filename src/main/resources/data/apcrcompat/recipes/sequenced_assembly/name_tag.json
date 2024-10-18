@@ -1,0 +1,46 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "apcrcompat:flimsy_name_press"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "minecraft:name_tag"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apcrcompat:flimsy_name_press"
+        },
+        {
+          "item": "create:empty_schematic"
+        }
+      ],
+      "results": [
+        {
+          "item": "apcrcompat:incomplete_name_tag"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "apcrcompat:incomplete_name_tag"
+        }
+      ],
+      "results": [
+        {
+          "item": "apcrcompat:incomplete_name_tag"
+        }
+      ]
+    }
+  ],
+	"transitionalItem": {
+		"item": "apcrcompat:incomplete_name_tag"
+	} 
+}

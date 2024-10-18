@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "ae2:singularity"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "ae2:quantum_entangled_singularity",
+	  "count": 2
+    }
+  ]
+}

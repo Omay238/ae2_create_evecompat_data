@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "apcrcompat:calculation_press_cast"
+    }
+  ],
+  "results": [
+    {
+      "item": "apcrcompat:flimsy_calculation_press"
+    },
+    {
+      "amount": 0,
+      "fluid": "apcrcompat:emptyfluid"
+    }
+  ]
+}

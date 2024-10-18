@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ae2:white_paint_ball"
+    },
+	{
+      "item": "ae2:white_paint_ball"
+    },
+	{
+      "item": "ae2:white_paint_ball"
+    },
+	{
+      "item": "ae2:white_paint_ball"
+    },
+	{
+      "item": "ae2:white_paint_ball"
+    },
+	{
+      "item": "ae2:white_paint_ball"
+    },
+	{
+      "item": "ae2:white_paint_ball"
+    },
+	{
+      "item": "ae2:white_paint_ball"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "result": {
+    "item": "ae2:white_lumen_paint_ball",
+	"count": 8
+  }
+}

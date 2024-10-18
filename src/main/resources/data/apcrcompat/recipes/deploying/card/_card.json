@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "ae2:*_card"
+    },
+    {
+      "item": "ae2:!"
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:?_card"
+    }
+  ]
+}

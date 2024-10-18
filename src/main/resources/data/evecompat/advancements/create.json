@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "create:wrench"
+		},
+		"title": "Create",
+		"frame": "goal",
+		"description": ["",{"text":""}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "evecompat:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

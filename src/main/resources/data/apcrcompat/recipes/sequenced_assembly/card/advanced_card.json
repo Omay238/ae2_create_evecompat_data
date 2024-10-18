@@ -1,0 +1,77 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:calculation_processor"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "ae2:advanced_card",
+	  "chance": 60.0,
+	  "count": 2
+    },
+	{
+      "item": "ae2:advanced_card",
+	  "chance": 30.0,
+	  "count": 1
+    },
+	{
+      "item": "ae2:calculation_processor",
+	  "chance": 10.0,
+	  "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:calculation_processor"
+        },
+        {
+          "item": "minecraft:diamond"
+        }
+      ],
+      "results": [
+        {
+          "item": "apcrcompat:incomplete_advanced_card"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apcrcompat:incomplete_advanced_card"
+        },
+        {
+          "item": "minecraft:iron_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "apcrcompat:incomplete_advanced_card"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apcrcompat:incomplete_advanced_card"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "apcrcompat:incomplete_advanced_card"
+        }
+      ]
+    }
+  ],
+	"transitionalItem": {
+		"item": "apcrcompat:incomplete_advanced_card"
+	}
+}

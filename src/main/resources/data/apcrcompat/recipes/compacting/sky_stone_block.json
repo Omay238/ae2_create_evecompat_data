@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+	{
+      "item": "ae2:matter_ball"
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:sky_stone_block",
+	  "count": 64
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "apcrcompat:flimsy_silicon_press"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "ae2:printed_silicon"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apcrcompat:flimsy_silicon_press"
+        },
+        {
+          "item": "ae2:silicon"
+        }
+      ],
+      "results": [
+        {
+          "item": "apcrcompat:incomplete_printed_silicon"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "apcrcompat:incomplete_printed_silicon"
+        }
+      ],
+      "results": [
+        {
+          "item": "apcrcompat:incomplete_printed_silicon"
+        }
+      ]
+    }
+  ],
+	"transitionalItem": {
+		"item": "apcrcompat:incomplete_printed_silicon"
+	} 
+}
