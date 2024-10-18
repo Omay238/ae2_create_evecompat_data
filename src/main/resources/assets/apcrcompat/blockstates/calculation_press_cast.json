@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "apcrcompat:block/calculation_press_cast"
+    }
+  }
+}

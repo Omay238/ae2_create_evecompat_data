@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "apcrcompat:item/flimsy_silicon_press"
+  }
+}
